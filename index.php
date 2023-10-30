@@ -29,7 +29,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 if (isset($err) && $err == true) {
     echo "<p>Revise usuario y contraseña.</p>";
    
-echo "prdwadwadwawd";
 }
 ?>
 
