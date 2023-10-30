@@ -28,8 +28,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <?php
 if (isset($err) && $err == true) {
     echo "<p>Revise usuario y contraseña.</p>";
-    echo "TUMADRE";
-echo "pr";
+   
+echo "prdwadwadwawd";
 }
 ?>
 
