@@ -28,11 +28,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <?php
 if (isset($err) && $err == true) {
     echo "<p>Revise usuario y contraseña.</p>";
+    echo "ooo";
 }
 ?>
 
 <body>
     <form action="" method="post">
+        
         usuario: <input type="text" name="usuario" value="<?php if (isset($usuario)) {
                                                                 echo $usuario;
                                                             } ?>">
